@@ -1,0 +1,64 @@
+{
+  "students": [
+    {
+      "id": 201,
+      "name": "John Doe",
+      "marks": 90,
+      "result": "Pass"
+    },
+    {
+      "id": 202,
+      "name": "Jane Smith",
+      "marks": 85,
+      "result": "Pass"
+    },
+    {
+      "id": 203,
+      "name": "Alice Johnson",
+      "marks": 35,
+      "result": "Fail"
+    },
+    {
+      "id": 204,
+      "name": "Bob Thompson",
+      "marks": 28,
+      "result": "Fail"
+    },
+    {
+      "id": 205,
+      "name": "Sarah Davis",
+      "marks": 88,
+      "result": "Pass"
+    },
+    {
+      "id": 206,
+      "name": "Michael Wilson",
+      "marks": 92,
+      "result": "Pass"
+    },
+    {
+      "id": 207,
+      "name": "Emily Brown",
+      "marks": 82,
+      "result": "Pass"
+    },
+    {
+      "id": 208,
+      "name": "David Lee",
+      "marks": 79,
+      "result": "Pass"
+    },
+    {
+      "id": 209,
+      "name": "Olivia Martinez",
+      "marks": 94,
+      "result": "Pass"
+    },
+    {
+      "id": 210,
+      "name": "Daniel Clark",
+      "marks": 87,
+      "result": "Pass"
+    }
+  ]
+}

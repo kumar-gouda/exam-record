@@ -1,0 +1,66 @@
+/* Table Styling */
+table {
+  margin: auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+
+h2 {
+  color: #561175;
+  text-align: center;
+}
+
+/* Table Header */
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Table Row */
+tr {
+  background-color: #fff;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Table Cell */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Hover Effect on Rows */
+tr:hover {
+  background-color: #e6e6e6;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pagination2 {
+  text-align: center;
+  margin: 25px auto;
+}
+
+.pagination2 a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ddd;
+}
+
+.pagination2 a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}

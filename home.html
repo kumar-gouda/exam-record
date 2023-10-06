@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>STUNDENTS MARKS RECORD</title>
+</head>
+
+<body>
+  <h2>STUNDENTS MARKS RECORD</h2>
+  <form id="myForm">
+    <label for="dropdown">Search By:</label>
+    <select id="dropdown">
+      <option value="name">NAME</option>
+      <option value="id">ID</option>
+      <option value="marks">MARKS</option>
+      <option value="result">RESULT</option>
+    </select>
+    <label for="textInput"> Search Key:</label>
+    <input type="text" id="textInput">
+    <br>
+    <label for="maxEntry">Max. rows per page: </label>
+    <input type="number" id="maxEntry" value="5" style="width: 50px;">
+    <br>
+    <input type="submit" value="Search">
+  </form>
+  <h2>Students Results</h2>
+  <div style="margin: 0 auto; text-align: center;">Pages:</div>
+  <div class="pagination2" id="pagination"></div>
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Sl No.</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody id="studentTableBody"></tbody>
+  </table>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
